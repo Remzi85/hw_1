@@ -1,0 +1,21 @@
+
+.item1 { grid-area: photo; }
+.item2 { grid-area: sentences; }
+.item3 { grid-area: likes; }
+
+.xeber{
+    display: grid;
+    grid-template-areas:
+      'photo photo photo photo photo photo'
+      'sentences sentences sentences sentences sentences sentences'
+      'likes likes likes likes likes likes';
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+.xeber > div {
+    background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
